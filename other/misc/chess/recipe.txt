@@ -1,9 +1,17 @@
 [Game "Chinese Chess"]
 [Title "JJ象棋单骑绝尘-003"]
 [FEN "5kc2/3r3R1/5a3/4p4/8C/7C1/9/9/3p1pp2/4K4 w - - 0 1"]
-1. 车二平四 车４平６
+1. 车二平四 车４平６ (1. ... 將６进１ 2. 炮一平四 士６退５ 3. 炮二平四 1-0 {变着1[变招1]})
 2. 炮一进四 炮７进２
 3. 炮二进五 1-0
+
+---
+[DhtmlXQ]
+[DhtmlXQ_title]<Title ">JJ象棋单骑绝尘-003-变招演示-东萍UBB格式<">[/DhtmlXQ_title]
+[DhtmlXQ_binit]7199999949999999998475999999999931999952509999999960994338586899[/DhtmlXQ_binit]
+[DhtmlXQ_movelist]71515040848060627570[/DhtmlXQ_movelist]
+[DhtmlXQ_move_0_2_1]3151848060627570[/DhtmlXQ_move_0_2_1]
+[/DhtmlXQ]
 
 ------
 [Game "Chinese Chess"]
