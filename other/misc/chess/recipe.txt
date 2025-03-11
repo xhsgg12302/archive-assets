@@ -251,7 +251,6 @@
 
 ---
 [DhtmlXQ]
-[DhtmlXQ_title][/DhtmlXQ_title]
 [DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-062-有变招<">[/DhtmlXQ_title]
 [DhtmlXQ_fen]4k4/3P5/4nr3/5NC1R/9/9/9/9/1rp1p4/3K5 w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]8353999939999999996399319999999952429999409999991899992848999999[/DhtmlXQ_binit]
@@ -291,3 +290,15 @@
 4. 馬五进七 將４平５
 5. 車八进一 車４退８
 6. 車八平六 1-0
+
+---
+[DhtmlXQ]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-090-四变招<">[/DhtmlXQ_title]
+[DhtmlXQ_result]*[/DhtmlXQ_result]
+[DhtmlXQ_fen]r2k4r/3CPP3/b4RRC1/N5n2/9/9/9/9/2p1p4/cpc2K3 w - - 0 1[/DhtmlXQ_fen]
+[DhtmlXQ_binit]5203999959999999623172415199999900630299309999998009292848199999[/DhtmlXQ_binit]
+[DhtmlXQ_movelist]6260806052536062313462525352634272424849594900104232[/DhtmlXQ_movelist]
+[DhtmlXQ_move_0_5_1]515048585958090858572949727062600322[/DhtmlXQ_move_0_5_1]
+[DhtmlXQ_move_0_3_2]52024858595809085857634202000800031142217232[/DhtmlXQ_move_0_3_2]
+[DhtmlXQ_move_0_1_3]7282807062727072527263827282485859580908585700108280[/DhtmlXQ_move_0_1_3]
+[/DhtmlXQ]
