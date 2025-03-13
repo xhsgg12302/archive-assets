@@ -293,6 +293,15 @@
 
 ---
 [DhtmlXQ]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-066-二变招<">[/DhtmlXQ_title]
+[DhtmlXQ_fen]4k4/3P1P3/3a1an2/n8/9/9/4CN3/9/3pp1p2/5K1p1 w - - 0 1[/DhtmlXQ_fen]
+[DhtmlXQ_binit]9956999959999999994699315199999999629932405299039999993848687999[/DhtmlXQ_binit]
+[DhtmlXQ_movelist]56443241442341322342324151414050414050513141[/DhtmlXQ_movelist]
+[DhtmlXQ_move_0_7_1]42544132514140505462[/DhtmlXQ_move_0_7_1]
+[/DhtmlXQ]
+
+---
+[DhtmlXQ]
 [DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-090-四变招<">[/DhtmlXQ_title]
 [DhtmlXQ_result]*[/DhtmlXQ_result]
 [DhtmlXQ_fen]r2k4r/3CPP3/b4RRC1/N5n2/9/9/9/9/2p1p4/cpc2K3 w - - 0 1[/DhtmlXQ_fen]
