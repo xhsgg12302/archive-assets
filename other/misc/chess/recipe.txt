@@ -388,6 +388,67 @@
 
 ---
 [DhtmlXQ]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-076-二变招<">[/DhtmlXQ_title]
+[DhtmlXQ_fen]4kn3/2nP2CNC/9/9/9/9/9/3p5/4p4/3K5 w - - 0 1[/DhtmlXQ_fen]
+[DhtmlXQ_binit]9971999939999999996181319999999999509999409999219999993748999999[/DhtmlXQ_binit]
+[DhtmlXQ_movelist]61605062314140307150214050624061818061806250[/DhtmlXQ_movelist]
+[DhtmlXQ_move_0_7_1]50424061413130403130[/DhtmlXQ_move_0_7_1]
+[/DhtmlXQ]
+
+---
+[Game "Chinese Chess"]
+[Title "JJ象棋-单骑绝尘-077"]
+[FEN "c1bk1a3/RR2a2P1/b8/2N6/9/9/9/9/c1rp1p3/4K4 w - - 0 1"]
+1. 車八平六 將４平５
+2. 車六平五 士６进５
+3. 車九平五 將５平６
+4. 車五平四 將６进１
+5. 兵二平三 將６退１
+6. 馬七进六 1-0
+
+---
+[Game "Chinese Chess"]
+[Title "JJ象棋-单骑绝尘-078"]
+[FEN "4k3C/1R1PaP3/3ab1n2/4r1N2/2c6/9/2r6/C8/9/3K5 w - - 0 1"]
+1. 兵六平五 士４退５
+2. 車八平五 馬７退５
+3. 兵四进一 將５平６
+4. 馬三进二 將６平５
+5. 馬二退四 將５平６
+6. 炮九平四 車３平６
+7. 馬四进三 1-0
+
+---
+[Game "Chinese Chess"]
+[Title "JJ象棋-单骑绝尘-079"]
+[FEN "9/2P1ck3/4b2r1/2C3R2/3N1P3/9/9/4B4/2p1r4/1c3K3 w - - 0 1"]
+1. 車三平四 車８平６
+2. 車四进一 將６进１
+3. 兵四进一 將６退１
+4. 兵四进一 將６退１
+5. 兵四进一 將６平５
+6. 兵四平五 將５进１
+7. 炮七平五 象５退３
+8. 炮五退五 象３进５
+9. 馬六进七 將５退１
+10. 兵七平六 卒３进１
+11. 炮五退一 炮２平５
+12. 兵六进一 1-0
+
+---
+[Game "Chinese Chess"]
+[Title "JJ象棋-单骑绝尘-080"]
+[FEN "1n1kca3/4a4/2n5r/N2C1P3/9/C8/9/3A1c3/3pAr3/4K4 w - - 0 1"]
+1. 馬九进八 將４进１
+2. 炮九进四 馬３退１
+3. 馬八退六 將４进１
+4. 炮六退五 將４平５
+5. 兵四平五 將５平６
+6. 炮六平四 炮６平８
+7. 仕五进四 1-0
+
+---
+[DhtmlXQ]
 [DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-090-四变招<">[/DhtmlXQ_title]
 [DhtmlXQ_result]*[/DhtmlXQ_result]
 [DhtmlXQ_fen]r2k4r/3CPP3/b4RRC1/N5n2/9/9/9/9/2p1p4/cpc2K3 w - - 0 1[/DhtmlXQ_fen]
