@@ -1,0 +1,189 @@
+Turbo Dump  Version 1.5  Copyright (c) 1988, 1989 Borland International
+
+                      Display of File C0S.OBJ
+
+000000 THEADR  C0S
+00001C SEGDEF 1 : _TEXT           BYTE  PUBLIC  Class 'CODE'	 Length: 01fa
+000035 SEGDEF 2 : _DATA           PARA  PUBLIC  Class 'DATA'	 Length: 0194
+000050 SEGDEF 3 : _EMUSEG         WORD  COMMON  Class 'DATA'	 Length: 0004
+00006B SEGDEF 4 : _CRTSEG         WORD  COMMON  Class 'DATA'	 Length: 0002
+000086 SEGDEF 5 : _CVTSEG         WORD  PUBLIC  Class 'DATA'	 Length: 0000
+0000A1 SEGDEF 6 : _SCNSEG         WORD  PUBLIC  Class 'DATA'	 Length: 0000
+0000B8 SEGDEF 7 : _BSS            WORD  PUBLIC  Class 'BSS'	 Length: 0000
+0000D4 SEGDEF 8 : _BSSEND         BYTE  PUBLIC  Class 'STACK'	 Length: 0000
+0000EF SEGDEF 9 : _STACK          PARA  STACK   Class 'STACK'	 Length: 0080
+000104 GRPDEF  Group: DGROUP
+    Segment: _BSSEND        
+    Segment: _BSS           
+    Segment: _SCNSEG        
+    Segment: _CVTSEG        
+    Segment: _CRTSEG        
+    Segment: _EMUSEG        
+    Segment: _DATA          
+000117 EXTDEF 1 : '_main'               Type: 0  
+       EXTDEF 2 : '__setargv'           Type: 0  
+       EXTDEF 3 : '__setenvp'           Type: 0  
+       EXTDEF 4 : '_exit'               Type: 0  
+       EXTDEF 5 : '__heaplen'           Type: 0  
+       EXTDEF 6 : '__stklen'            Type: 0  
+000154 PUBDEF  '__ScanTodVector'       Segment: [06]:0000
+00016D PUBDEF  '__RealCvtVector'       Segment: [05]:0000
+000186 PUBDEF  '___brklvl'             Segment: [02]:009E
+000199 PUBDEF  'emws_initialSP'        Segment: [02]:016E
+0001B1 PUBDEF  'emws_nmiVector'        Segment: [02]:017E
+0001C9 PUBDEF  '__envseg'              Segment: [02]:008C
+0001DB PUBDEF  'emws_control'          Segment: [02]:0184
+0001F1 PUBDEF  '__heaptop'             Segment: [02]:00AA
+000204 PUBDEF  '___heaptop'            Segment: [02]:00A0
+000218 PUBDEF  '__envSize'             Segment: [02]:008E
+00022B PUBDEF  '_abort'                Segment: [01]:01E2
+00023B PUBDEF  'emws_adjust'           Segment: [02]:0188
+000250 PUBDEF  'emws_status'           Segment: [02]:0182
+000265 PUBDEF  '__osminor'             Segment: [02]:0093
+000278 PUBDEF  '__psp'                 Segment: [02]:0090
+000287 PUBDEF  'emws_TOS'              Segment: [02]:0186
+000299 PUBDEF  'emws_version'          Segment: [02]:0192
+0002AF PUBDEF  '__restorezero'         Segment: [01]:01A5
+0002C6 PUBDEF  '__exit'                Segment: [01]:0121
+0002D6 PUBDEF  '__Int4Vector'          Segment: [02]:0078
+0002EC PUBDEF  '__Int0Vector'          Segment: [02]:0074
+000302 PUBDEF  '__Int5Vector'          Segment: [02]:007C
+000318 PUBDEF  '__Int6Vector'          Segment: [02]:0080
+00032E PUBDEF  '__heapbase'            Segment: [02]:00A2
+000342 PUBDEF  '___heapbase'           Segment: [02]:009C
+000357 PUBDEF  'DGROUP@'               Segment: [01]:01F8
+000368 PUBDEF  '__envLng'              Segment: [02]:008A
+00037A PUBDEF  'emws_fixSeg'           Segment: [02]:018A
+00038F PUBDEF  'emws_BPsafe'           Segment: [02]:018C
+0003A4 PUBDEF  'emws_stamp'            Segment: [02]:018E
+0003B8 PUBDEF  '__brklvl'              Segment: [02]:00A6
+0003CA PUBDEF  '_environ'              Segment: [02]:0088
+0003DC PUBDEF  'emws_saveVector'       Segment: [02]:017A
+0003F5 PUBDEF  '__argv'                Segment: [02]:0086
+000405 PUBDEF  '__argc'                Segment: [02]:0084
+000415 PUBDEF  '_errno'                Segment: [02]:0094
+000425 PUBDEF  '__StartTime'           Segment: [02]:0098
+00043A PUBDEF  '__8087'                Segment: [02]:0096
+00044A PUBDEF  'emws_limitSP'          Segment: [02]:00AE
+000460 PUBDEF  '__osmajor'             Segment: [02]:0092
+000473 PUBDEF  '__version'             Segment: [02]:0092
+000486 LEDATA  Segment: _TEXT            Offset: 0000  Length: 01F8
+    0000: BA 00 00 2E 89 16 F8 01  B4 30 CD 21 8B 2E 02 00   .........0.!....
+    0010: 8B 1E 2C 00 8E DA A3 92  00 8C 06 90 00 89 1E 8C   ..,.............
+    0020: 00 89 2E AC 00 C7 06 96  00 FF FF E8 34 01 C4 3E   ............4..>
+    0030: 8A 00 8B C7 8B D8 B9 FF  7F 26 81 3D 38 37 75 19   .........&.=87u.
+    0040: 26 8B 55 02 80 FA 3D 75  10 80 E6 DF FF 06 96 00   &.U...=u........
+    0050: 80 FE 59 75 04 FF 06 96  00 F2 AE E3 61 43 26 38   ..Yu........aC&8
+    0060: 05 75 D6 80 CD 80 F7 D9  89 0E 8A 00 B9 01 00 D3   .u..............
+    0070: E3 83 C3 08 83 E3 F8 89  1E 8E 00 8C DA 2B EA 8B   .............+..
+    0080: 3E 00 00 81 FF 00 02 73  07 BF 00 02 89 3E 00 00   >......s.....>..
+    0090: 81 C7 00 00 72 28 03 3E  00 00 72 22 B1 04 D3 EF   ....r(.>..r"....
+    00A0: 47 3B EF 72 19 83 3E 00  00 00 74 07 83 3E 00 00   G;.r..>...t..>..
+    00B0: 00 75 0E BF 00 10 3B EF  77 07 8B FD EB 03 E9 21   .u....;.w......!
+    00C0: 01 8B DF 03 DA 89 1E A4  00 89 1E A8 00 A1 90 00   ................
+    00D0: 2B D8 8E C0 B4 4A 57 CD  21 5F D3 E7 FA 8E D2 8B   +....JW.!_......
+    00E0: E7 FB 33 C0 2E 8E 06 F8  01 BF 00 00 B9 00 00 2B   ..3............+
+    00F0: CF F3 AA 0E FF 16 00 00  E8 00 00 E8 00 00 B4 00   ................
+    0100: CD 1A 89 16 98 00 89 0E  9A 00 FF 16 00 00 FF 36   ...............6
+    0110: 88 00 FF 36 86 00 FF 36  84 00 E8 00 00 50 E8 00   ...6...6.....P..
+    0120: 00 2E 8E 1E F8 01 E8 7C  00 0E FF 16 02 00 33 C0   .......|......3.
+    0130: 8B F0 B9 2F 00 90 FC 02  04 80 D4 00 46 E2 F8 2D   .../........F..-
+    0140: 37 0D 90 74 0A B9 19 00  90 BA 2F 00 E8 8B 00 8B   7..t....../.....
+    0150: EC B4 4C 8A 46 02 CD 21  B9 0E 00 90 BA 48 00 E9   ..L.F..!.....H..
+    0160: 87 00 1E B8 00 35 CD 21  89 1E 74 00 8C 06 76 00   .....5.!..t...v.
+    0170: B8 04 35 CD 21 89 1E 78  00 8C 06 7A 00 B8 05 35   ..5.!..x...z...5
+    0180: CD 21 89 1E 7C 00 8C 06  7E 00 B8 06 35 CD 21 89   .!..|...~...5.!.
+    0190: 1E 80 00 8C 06 82 00 B8  00 25 8C CA 8E DA BA 58   .........%.....X
+    01A0: 01 CD 21 1F C3 1E B8 00  25 C5 16 74 00 CD 21 1F   ..!.....%..t..!.
+    01B0: 1E B8 04 25 C5 16 78 00  CD 21 1F 1E B8 05 25 C5   ...%..x..!....%.
+    01C0: 16 7C 00 CD 21 1F 1E B8  06 25 C5 16 80 00 CD 21   .|..!....%.....!
+    01D0: 1F C3 C7 06 96 00 00 00  CB C3 B4 40 BB 02 00 CD   ...........@....
+    01E0: 21 C3 B9 1E 00 90 BA 56  00 2E 8E 1E F8 01 E8 E9   !......V........
+    01F0: FF B8 03 00 50 E8 29 FF                            ....P.).
+000685 FIXUPP
+    FixUp: 006  Mode: Seg  Loc: Offset     Frame: TARGET  Target: SI[1]
+    FixUp: 017  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 01b  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 01f  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 023  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 027  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 030  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 04e  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 057  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 06a  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 079  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 092  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[8]
+    FixUp: 0c7  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 0cb  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 0ce  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 0e7  Mode: Seg  Loc: Offset     Frame: TARGET  Target: SI[1]
+    FixUp: 0ea  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[7]
+    FixUp: 0ed  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[8]
+    FixUp: 0f6  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[3]
+    FixUp: 104  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 108  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 10c  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[4]
+    FixUp: 001  Mode: Seg  Loc: Base       Frame: TARGET  Target: GI[1]
+    FixUp: 081  Mode: Seg  Loc: Offset     Frame: TARGET  Target: EI[6]
+    FixUp: 08e  Mode: Seg  Loc: Offset     Frame: TARGET  Target: EI[6]
+    FixUp: 098  Mode: Seg  Loc: Offset     Frame: TARGET  Target: EI[5]
+    FixUp: 0a7  Mode: Seg  Loc: Offset     Frame: TARGET  Target: EI[6]
+    FixUp: 0ae  Mode: Seg  Loc: Offset     Frame: TARGET  Target: EI[5]
+    FixUp: 0f9  Mode: Self Loc: Offset     Frame: SI[1]   Target: EI[2]
+    FixUp: 0fc  Mode: Self Loc: Offset     Frame: SI[1]   Target: EI[3]
+    FixUp: 11b  Mode: Self Loc: Offset     Frame: SI[1]   Target: EI[1]
+    FixUp: 11f  Mode: Self Loc: Offset     Frame: SI[1]   Target: EI[4]
+    FixUp: 19f  Mode: Seg  Loc: Offset     Frame: TARGET  Target: SI[1]
+    FixUp: 110  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 114  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 118  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 124  Mode: Seg  Loc: Offset     Frame: TARGET  Target: SI[1]
+    FixUp: 12c  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[3]
+    FixUp: 14a  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 15d  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 16a  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 16e  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 177  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 17b  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 184  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 188  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 191  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 195  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 1ab  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 1b6  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 1c1  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 1cc  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 1d4  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 1e7  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[2]
+    FixUp: 1ec  Mode: Seg  Loc: Offset     Frame: TARGET  Target: SI[1]
+000791 LIDATA  Segment: _DATA          Offset: 0000
+    Repeat   4. times,   1. Blocks
+    Repeat   1. time,    1. Bytes
+    0000: 00                                                 .
+0007A2 LEDATA  Segment: _DATA            Offset: 0004  Length: 00AA
+    0000: 54 75 72 62 6F 2D 43 20  2D 20 43 6F 70 79 72 69   Turbo-C - Copyri
+    0010: 67 68 74 20 28 63 29 20  31 39 38 38 20 42 6F 72   ght (c) 1988 Bor
+    0020: 6C 61 6E 64 20 49 6E 74  6C 2E 00 4E 75 6C 6C 20   land Intl..Null 
+    0030: 70 6F 69 6E 74 65 72 20  61 73 73 69 67 6E 6D 65   pointer assignme
+    0040: 6E 74 0D 0A 44 69 76 69  64 65 20 65 72 72 6F 72   nt..Divide error
+    0050: 0D 0A 41 62 6E 6F 72 6D  61 6C 20 70 72 6F 67 72   ..Abnormal progr
+    0060: 61 6D 20 74 65 72 6D 69  6E 61 74 69 6F 6E 0D 0A   am termination..
+    0070: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00   ................
+    0080: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00   ................
+    0090: 00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00   ................
+    00A0: 00 00 00 00 00 00 00 00  00 00                     ..........
+000853 FIXUPP
+    FixUp: 098  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[8]
+    FixUp: 09a  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[8]
+    FixUp: 09c  Mode: Seg  Loc: Offset     Frame: GI[1]   Target: SI[8]
+000866 LEDATA  Segment: _EMUSEG          Offset: 0000  Length: 0004
+    0000: D2 01 D2 01                                        ....
+000871 FIXUPP
+    FixUp: 000  Mode: Seg  Loc: Offset     Frame: TARGET  Target: SI[1]
+    FixUp: 002  Mode: Seg  Loc: Offset     Frame: TARGET  Target: SI[1]
+00087D LEDATA  Segment: _CRTSEG          Offset: 0000  Length: 0002
+    0000: D9 01                                              ..
+000886 FIXUPP
+    FixUp: 000  Mode: Seg  Loc: Offset     Frame: TARGET  Target: SI[1]
+00088E MODEND  (Main Module)   Frame: SI[1]   Target: SI[1], 0000h
+
