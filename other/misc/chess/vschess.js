@@ -7059,9 +7059,9 @@ vschess.load.prototype.clearBoard = function(index){
 // 创建棋谱注解区域
 vschess.load.prototype.createComment = function(){
     var _this = this;
-    this.commentTitle = $('<div style="display:none" class="vschess-tab-title vschess-tab-title-comment">' + this.options.tagName.comment + '</div>');
-	this.commentArea = $('<div style="display:none" class="vschess-tab-body vschess-tab-body-comment"></div>');
-	this.commentTextarea = $('<textarea class="vschess-tab-body-comment-textarea"></textarea>').appendTo(this.commentArea);
+    this.commentTitle = $('<div class="vschess-tab-title vschess-tab-title-comment">' + this.options.tagName.comment + '</div>');
+	this.commentArea = $('<div class="vschess-tab-body vschess-tab-body-comment"></div>');
+	this.commentTextarea = $('<textarea readOnly class="vschess-tab-body-comment-textarea"></textarea>').appendTo(this.commentArea);
 	this.tabArea.children(".vschess-tab-title-comment, .vschess-tab-body-comment").remove();
 	this.tabArea.append(this.commentTitle);
 	this.tabArea.append(this.commentArea );
@@ -7075,6 +7075,10 @@ vschess.load.prototype.createComment = function(){
 // 根据局面号填充注释
 vschess.load.prototype.setCommentByStep = function(step){
 	step = vschess.limit(step, 0, this.lastSituationIndex(), this.getCurrentStep());
+	// 12302 updated
+	if (this.commentList[step] == '') {
+		this.commentList[step] = this.commentList[step > 0 ? step - 1 : 0];
+	} 
 	this.commentTextarea.val(this.commentList[step]);
 	vschess.placeholder || (this.commentList[step] ?  this.commentTextareaPlaceholder.hide() : this.commentTextareaPlaceholder.show());
 	return this;
@@ -7083,7 +7087,7 @@ vschess.load.prototype.setCommentByStep = function(step){
 // 创建棋谱注解区域空白提示
 vschess.load.prototype.createCommentPlaceholder = function(){
 	if (vschess.placeholder) {
-		this.commentTextarea.attr({ "placeholder": "\u8fd9\u91cc\u53ef\u4ee5\u586b\u5199\u6ce8\u89e3" });
+		this.commentTextarea.attr({ "placeholder": "\u7A7A\u767D\u6CE8\u89E3" });
 		return this;
 	}
 
@@ -7303,7 +7307,12 @@ vschess.load.prototype.createControlBar = function(){
 		last : $('<button type="button" class="vschess-button vschess-control-bar-button vschess-control-bar-last" >\u7ec8 \u5c40</button>')
 	};
 
-	this.controlBarButton.first.bind(this.options.click, function(){ _this.pause(false).setBoardByStep(0); });
+	this.controlBarButton.first.bind(this.options.click, function(){
+		// 12302 updated
+		_this.selectDefault(0).defaultIndex = 0;
+		//_this.pause(false).setBoardByStep(0);
+		_this.pause(false).rebuildSituation().refreshMoveSelectListNode().setBoardByStep(0); 
+	});
 	this.controlBarButton.last .bind(this.options.click, function(){ _this.pause(false).setBoardByStep(_this.lastSituationIndex()); });
 	this.controlBarButton.prev .bind(this.options.click, function(){ _this.pause(false).setBoardByOffset(-1); });
 	this.controlBarButton.next .bind(this.options.click, function(){ _this.pause(false).animateToNext(); });
@@ -8333,7 +8342,7 @@ vschess.load.prototype.createEditOtherButton = function(){
 		_this.refreshInfoEditor();
 		_this.rebuildExportAll();
 		_this.setExportFormat();
-		_this.setTurn(0);
+		//_this.setTurn(0);
 		_this.setSaved(true);
 	});
 

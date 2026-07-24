@@ -59,9 +59,9 @@
 .vschess-layout-default .vschess-tab-area  { position:absolute; top:31px; left:572px; z-index:20; }
 .vschess-layout-default .vschess-tab-title { position:relative; width:184px; height: 28px; font-size:12px; line-height:28px; _line-height:30px; background:url(title-bg.png) repeat-x 0px -58px; color:#887d6f; text-align:center; cursor:pointer; overflow:hidden; }
 .vschess-layout-default .vschess-tab-title-current { background-position:0px -86px; color:#f0ede9; }
-.vschess-layout-default .vschess-tab-body { position:relative; width:184px; height:435px; font-size:12px; display:none; overflow:hidden; }
+.vschess-layout-default .vschess-tab-body { position:relative; width:184px; height:407px; font-size:12px; display:none; overflow:hidden; }
 .vschess-layout-default .vschess-tab-body-current { display:block; }
-.vschess-layout-default .vschess-tab-body-comment-textarea               { position:absolute; width:174px; height:308px; top:  2px; left: 0px; padding:5px; font-size:12px; line-height:20px; z-index:1; background-color:transparent; border:none; +border:1px solid none; outline:none; resize:none; overflow-x:hidden; overflow-y:auto; +margin-top:-1px; +margin-bottom:-1px; }
+.vschess-layout-default .vschess-tab-body-comment-textarea               { position:absolute; width:174px; height:380px; top:  2px; left: 0px; padding:5px; font-size:12px; line-height:20px; z-index:1; background-color:transparent; border:none; +border:1px solid none; outline:none; resize:none; overflow-x:hidden; overflow-y:auto; +margin-top:-1px; +margin-bottom:-1px; }
 .vschess-layout-default .vschess-tab-body-comment-textarea-placeholder   { position:absolute; width:174px; height:308px; top:  2px; left: 0px; padding:5px; font-size:12px; line-height:20px; z-index:0; color:#a9a9a9; }
 .vschess-layout-default .vschess-tab-body-edit-end-button                { position:absolute; width: 82px; height: 24px; top:290px; left: 6px; display:none; }
 .vschess-layout-default .vschess-tab-body-edit-cancel-button             { position:absolute; width: 82px; height: 24px; top:290px; left:96px; display:none; }
