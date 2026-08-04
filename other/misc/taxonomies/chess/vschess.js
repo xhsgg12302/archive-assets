@@ -7457,7 +7457,7 @@ vschess.load.prototype.getPlayGap = function(){
 
 // 创建复制用文本框
 vschess.load.prototype.createCopyTextarea = function(){
-	this.copyTextarea = $('<textarea class="vschess-copy" readonly="readonly"></textarea>').appendTo(this.DOM);
+	this.copyTextarea = $('<textarea id="vschess-copy-textarea" class="vschess-copy" readonly="readonly"></textarea>').appendTo(this.DOM);
 	return this;
 };
 
@@ -9135,7 +9135,7 @@ vschess.load.prototype.createMobileTag = function () {
 // 着法选择列表
 vschess.load.prototype.createMoveSelectList = function(){
 	this.DOM.children(".vschess-move-select-list").remove();
-	this.moveSelectList = $('<ul class="vschess-move-select-list"></ul>');
+	this.moveSelectList = $('<ul class="vschess-move-select-list blur-mask"></ul>');
 	this.DOM.append(this.moveSelectList);
 	return this;
 };
@@ -9168,7 +9168,7 @@ vschess.load.prototype.refreshMoveSelectListNode = function(){
 	this.moveSelectListSteps.each(function(index){
 		var each = $(this);
 		index && _this.changeLengthList[index - 1] > 1 && each.addClass("vschess-move-select-node-change");
-		each.bind(_this.options.click, function(){ _this.setBoardByStep(index); });
+		each.bind(_this.options.click, function(e){ e.stopPropagation(); _this.setBoardByStep(index); });
 	});
 
 	return this.refreshMoveSelectListNodeColor();
