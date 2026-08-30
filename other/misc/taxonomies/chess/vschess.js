@@ -3162,6 +3162,19 @@ vschess.showText = function(showText, item){
 
 	return map[item] && map[item][showText] || showText;
 };
+// update by 12302
+vschess.convertObjToJsStr = function(obj, keys) {
+  const fields = Object.entries(obj)
+    .filter(([key]) => keys.includes(key))
+    .map(([key, val]) => {
+      // 判断如果是字符串，包裹单引号；如果是其他类型（数字/布尔等），直接转字符
+      const formattedVal = typeof val === 'string' ? `'${val}'` : val;
+      return `${key}: ${formattedVal}`;
+    })
+    .join(', ');
+
+  return `{ ${fields} }`;
+}
 
 // 获取棋局信息数据文本
 vschess.dataText = function(dataText, item){
@@ -5124,6 +5137,9 @@ vschess.nodeToData_DhtmlXQ = function(nodeData, infoList, isMirror){
 		.replace(/\//g,"").split("");
 
 	for (var i in infoList) {
+		// updated by 12302
+		if (i === 'title'){ DhtmlXQ.push('[DhtmlXQ_title]<Title ">' + vschess.showText(infoList[i], i) + '<">[/DhtmlXQ_title]'); continue; }
+		if (i === 'field'){ DhtmlXQ.push('[DhtmlXQ_title]<Field ">' + vschess.showText(infoList[i], i) + '<">[/DhtmlXQ_title]'); continue; }
 		DhtmlXQ.push('[DhtmlXQ_' + (vschess.info.DhtmlXQ[i] || i) + ']' + vschess.showText(infoList[i], i) + '[/DhtmlXQ_' + (vschess.info.DhtmlXQ[i] || i) + ']');
 	}
 
@@ -8712,6 +8728,7 @@ vschess.load.prototype.rebuildExportPengFei = function(){
 
 // 重建东萍 DhtmlXQ 格式棋谱
 vschess.load.prototype.rebuildExportDhtmlXQ = function(){
+	this.chessInfo.field = vschess.convertObjToJsStr(this.options, ['turn', '...']);
 	this.exportData.DhtmlXQ  = vschess.nodeToData_DhtmlXQ(this.node, this.chessInfo);
 	this.exportData.DhtmlXQM = vschess.turn_DhtmlXQ(this.exportData.DhtmlXQ);
 	return this;

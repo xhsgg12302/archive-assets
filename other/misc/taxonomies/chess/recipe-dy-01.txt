@@ -1,5 +1,6 @@
 [Game "Chinese Chess"]
 [Title "抖音解说-001-完-钟珍vs山本"]
+[Remark "东方剑客"]
 {　　hello comment }
 1. 馬八进七 卒３进１
 2. 馬七退五 砲２平５
@@ -148,8 +149,10 @@
 ------
 [DhtmlXQ]
 [DhtmlXQ_title]<Title ">抖音解说-008-完-五把飞刀_专杀中炮<">[/DhtmlXQ_title]
-[DhtmlXQ_title]<Field ">{turn: vschess.code.turn.round}<">[/DhtmlXQ_title]
 [DhtmlXQ_result]*[/DhtmlXQ_result]
+[DhtmlXQ_remark] https://v.douyin.com/otYx6khYUjQ/ oqe:/ :8pm p@Q.XZ 10/20 [/DhtmlXQ_remark]
+[DhtmlXQ_title]<Field ">{ turn: 3 }<">[/DhtmlXQ_title]
+[DhtmlXQ_fen]rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]0919293949596979891777062646668600102030405060708012720323436383[/DhtmlXQ_binit]
 [DhtmlXQ_movelist]774712427967706289798070797310227363001017371018636272796779424659487079[/DhtmlXQ_movelist]
 [DhtmlXQ_move_0_17_1]3948707962221848493979692252484939384947192769685948684838394737[/DhtmlXQ_move_0_17_1]
@@ -157,7 +160,34 @@
 [DhtmlXQ_move_0_15_3]394879894757707857557858552518484939483839494246[/DhtmlXQ_move_0_15_3]
 [DhtmlXQ_move_3_23_4]67485859[/DhtmlXQ_move_3_23_4]
 [DhtmlXQ_move_0_11_5]1927224109197271474362436343416243457141[/DhtmlXQ_move_0_11_5]
-[DhtmlXQ_move_5_15_6]6373625473535435170710192719424667464153463435473453476849487178[/DhtmlXQ_move_5_15_6]
-[DhtmlXQ_move_6_19_7]474335435343416243457141[/DhtmlXQ_move_6_19_7]
+[DhtmlXQ_move_5_15_6]6373625473535435474335435343416243457141[/DhtmlXQ_move_5_15_6]
+[DhtmlXQ_move_6_19_7]170710192719424667464153463435473453476849487178[/DhtmlXQ_move_6_19_7]
+[DhtmlXQ_comment0]　　hello comment [/DhtmlXQ_comment0]
+[/DhtmlXQ]
+
+------
+[DhtmlXQ]
+[DhtmlXQ_title]<Title ">抖音解说-009-完-三种技巧_运炮如神<">[/DhtmlXQ_title]
+[DhtmlXQ_result]*[/DhtmlXQ_result]
+[DhtmlXQ_remark] https://v.douyin.com/v5bPosi82AQ/  [/DhtmlXQ_remark]
+[DhtmlXQ_fen]rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1[/DhtmlXQ_fen]
+[DhtmlXQ_binit]0919293949596979891777062646668600102030405060708012720323436383[/DhtmlXQ_binit]
+[DhtmlXQ_movelist]174712421927102209190001191301511323515879675868777568677565[/DhtmlXQ_movelist]
+[DhtmlXQ_move_0_14_1]70822748726275252201471768781711304125204030232178761110[/DhtmlXQ_move_0_14_1]
+[DhtmlXQ_move_1_15_2]8987725275255257232257874743[/DhtmlXQ_move_1_15_2]
+[DhtmlXQ_move_0_10_3]7082796751564645566667467276232276462746664622208070898742454748462677472620484530414743604245424030873741323732[/DhtmlXQ_move_0_10_3]
+[DhtmlXQ_comment0]　　hello comment [/DhtmlXQ_comment0]
+[DhtmlXQ_comment3_12]三种方式的棋路，对方完全没办法。 [/DhtmlXQ_comment3_12]
+[/DhtmlXQ]
+
+------
+[DhtmlXQ]
+[DhtmlXQ_title]<Title ">抖音解说-010-完-连弃双车_绝地翻盘<">[/DhtmlXQ_title]
+[DhtmlXQ_result]*[/DhtmlXQ_result]
+[DhtmlXQ_remark] https://v.douyin.com/7qQ5jn7qlIk/ [/DhtmlXQ_remark]
+[DhtmlXQ_title]<Field ">{ turn: 0 }<">[/DhtmlXQ_title]
+[DhtmlXQ_fen]rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1[/DhtmlXQ_fen]
+[DhtmlXQ_binit]0919293949596979891777062646668600102030405060708012720323436383[/DhtmlXQ_binit]
+[DhtmlXQ_movelist]1747102219270010091923246665706219131202132302014748808146458151774750417967012123335157897972717972576772626042454467574443405043537179487857594948101578581555333041306252215152515051535251505251[/DhtmlXQ_movelist]
 [DhtmlXQ_comment0]　　hello comment [/DhtmlXQ_comment0]
 [/DhtmlXQ]
