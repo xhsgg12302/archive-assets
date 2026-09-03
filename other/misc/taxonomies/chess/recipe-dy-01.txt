@@ -139,6 +139,7 @@
 ------
 [DhtmlXQ]
 [DhtmlXQ_title]<Title ">抖音解说-007-残<">[/DhtmlXQ_title]
+[DhtmlXQ_remark] https://v.douyin.com/DnnlQKWfx0c/ [/DhtmlXQ_remark]
 [DhtmlXQ_comment0]　　村冠看了直摇头，省冠却笑开了花[/DhtmlXQ_comment0]
 [DhtmlXQ_fen]4ka3/3Ra4/9/4RN3/9/9/9/9/2pp5/4Kc1r1 w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]3153999949999999439999999999999979999950404199999959992838999999[/DhtmlXQ_binit]
@@ -190,4 +191,26 @@
 [DhtmlXQ_binit]0919293949596979891777062646668600102030405060708012720323436383[/DhtmlXQ_binit]
 [DhtmlXQ_movelist]1747102219270010091923246665706219131202132302014748808146458151774750417967012123335157897972717972576772626042454467574443405043537179487857594948101578581555333041306252215152515051535251505251[/DhtmlXQ_movelist]
 [DhtmlXQ_comment0]　　hello comment [/DhtmlXQ_comment0]
+[/DhtmlXQ]
+
+------
+[DhtmlXQ]
+[DhtmlXQ_title]<Title ">抖音解说-011-完-以车换炮_封神之战<">[/DhtmlXQ_title]
+[DhtmlXQ_remark] 钟珍经典名局 # 象棋# 中国象棋开局技巧 # 象棋绝杀  https://v.douyin.com/MlVFv3pka28/ [/DhtmlXQ_remark]
+[DhtmlXQ_result]*[/DhtmlXQ_result]
+[DhtmlXQ_title]<Field ">{ turn: 0 }<">[/DhtmlXQ_title]
+[DhtmlXQ_fen]rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1[/DhtmlXQ_fen]
+[DhtmlXQ_binit]0919293949596979891777062646668600102030405060708012720323436383[/DhtmlXQ_binit]
+[DhtmlXQ_movelist]174772421927102209197062777543441912421247444041898822108818123218114142115132335153333175454232535260425242[/DhtmlXQ_movelist]
+[/DhtmlXQ]
+
+------
+[DhtmlXQ]
+[DhtmlXQ_title]<Title ">抖音解说-012-完-连弃三子_二郎探母<">[/DhtmlXQ_title]
+[DhtmlXQ_result]*[/DhtmlXQ_result]
+[DhtmlXQ_remark] 连弃三子杀人诛心，二郎探母直捣黄龙，棋仙钟珍历史名局 https://v.douyin.com/edfOGavEUd0/ [/DhtmlXQ_remark]
+[DhtmlXQ_title]<Field ">{ turn: 0 }<">[/DhtmlXQ_title]
+[DhtmlXQ_fen]rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1[/DhtmlXQ_fen]
+[DhtmlXQ_binit]0919293949596979891777062646668600102030405060708012720323436383[/DhtmlXQ_binit]
+[DhtmlXQ_movelist]7967724266657062897980701927707639482324294776660939666739321222323110021713636477700010708010133161131761601727606250417970415070715041626041507141[/DhtmlXQ_movelist]
 [/DhtmlXQ]
