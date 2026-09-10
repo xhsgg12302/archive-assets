@@ -1,31 +1,12 @@
-[Game "Chinese Chess"]
-[Title "抖音解说-001-完-钟珍vs山本"]
-[Remark "东方剑客"]
-{　　hello comment }
-1. 馬八进七 卒３进１
-2. 馬七退五 砲２平５
-3. 馬五进六 砲５进４
-4. 馬二进三 砲８平５
-5. 馬三进五 砲５进４
-6. 馬六进七 士６进５
-7. 馬七进八 車１进２
-8. 車九平八 馬２进３
-9. 炮八平七 車９进２
-10. 車一平二 車９平４
-11. 炮七进五 車４平３
-12. 炮二平七 車３进４
-13. 炮七进七 車３退６
-14. 馬八进七 車１平３
-15. 車二进九 車３退２
-16. 車二平三 士５退６
-17. 車八进三 砲５平９
-18. 車八进三 卒５进１
-19. 車八平五 士４进５
-20. 車五退一 車３进１
-21. 車五平八 車３平４
-22. 車八进四 車４退１
-23. 車八退一 卒９进１
-24. 車八平五 1-0
+[DhtmlXQ]
+[DhtmlXQ_title]<Title ">抖音解说-001-完-钟珍vs山本<">[/DhtmlXQ_title]
+[DhtmlXQ_remark]东方剑客[/DhtmlXQ_remark]
+[DhtmlXQ_title]<Field ">{ turn: 0 }<">[/DhtmlXQ_title]
+[DhtmlXQ_fen]rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1[/DhtmlXQ_fen]
+[DhtmlXQ_binit]0919293949596979891777062646668600102030405060708012720323436383[/DhtmlXQ_binit]
+[DhtmlXQ_movelist]19272324274812424836424679677242674642463624504124120002091910221727808289798232272232227727222627202620122002227970222070604150191646861613434413433041434420214414213114103130101183841141[/DhtmlXQ_movelist]
+[DhtmlXQ_comment0]　　hello comment [/DhtmlXQ_comment0]
+[/DhtmlXQ]
 
 ------
 [Game "Chinese Chess"]
@@ -213,4 +194,14 @@
 [DhtmlXQ_fen]rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]0919293949596979891777062646668600102030405060708012720323436383[/DhtmlXQ_binit]
 [DhtmlXQ_movelist]7967724266657062897980701927707639482324294776660939666739321222323110021713636477700010708010133161131761601727606250417970415070715041626041507141[/DhtmlXQ_movelist]
+[/DhtmlXQ]
+
+------
+[DhtmlXQ]
+[DhtmlXQ_title]<Title ">抖音解说-013-残-双车制动_力挽狂澜<">[/DhtmlXQ_title]
+[DhtmlXQ_result]*[/DhtmlXQ_result]
+[DhtmlXQ_title]<Field ">{ turn: 0 }<">[/DhtmlXQ_title]
+[DhtmlXQ_fen]4c4/3k5/2c6/9/9/9/9/4R4/4R4/3AKA3 w - - 0 1[/DhtmlXQ_fen]
+[DhtmlXQ_binit]4799993949599999489999999999999999999999319999999940229999999999[/DhtmlXQ_binit]
+[DhtmlXQ_movelist]474131324842224241403231404231304241[/DhtmlXQ_movelist]
 [/DhtmlXQ]
