@@ -7077,7 +7077,7 @@ vschess.load.prototype.createComment = function(){
     var _this = this;
     this.commentTitle = $('<div class="vschess-tab-title vschess-tab-title-comment">' + this.options.tagName.comment + '</div>');
 	this.commentArea = $('<div class="vschess-tab-body vschess-tab-body-comment"></div>');
-	this.commentTextarea = $('<textarea readOnly class="vschess-tab-body-comment-textarea"></textarea>').appendTo(this.commentArea);
+	this.commentTextarea = $('<textarea ' + (this.options.comment ? '' : 'readOnly ') + 'class="vschess-tab-body-comment-textarea"></textarea>').appendTo(this.commentArea);
 	this.tabArea.children(".vschess-tab-title-comment, .vschess-tab-body-comment").remove();
 	this.tabArea.append(this.commentTitle);
 	this.tabArea.append(this.commentArea );

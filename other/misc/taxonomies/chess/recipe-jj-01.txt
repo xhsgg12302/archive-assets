@@ -14,7 +14,7 @@
 
 ---
 [DhtmlXQ]
-[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-003-变招演示-东萍UBB格式<">[/DhtmlXQ_title]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-003-变着演示-东萍UBB格式<">[/DhtmlXQ_title]
 [DhtmlXQ_binit]7199999949999999998475999999999931999952509999999960994338586899[/DhtmlXQ_binit]
 [DhtmlXQ_movelist]71515040848060627570[/DhtmlXQ_movelist]
 [DhtmlXQ_move_0_2_1]3151848060627570[/DhtmlXQ_move_0_2_1]
@@ -30,7 +30,7 @@
 
 ---
 [DhtmlXQ]
-[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-005-二变招<">[/DhtmlXQ_title]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-005-二变着<">[/DhtmlXQ_title]
 [DhtmlXQ_fen]6b2/5k3/5cR1b/6N2/9/9/9/4C1p2/3rRpr2/4K4 w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]6263999949999999484799999999999938996099519982996852996758999999[/DhtmlXQ_binit]
 [DhtmlXQ_movelist]6260514160615251615141406342[/DhtmlXQ_movelist]
@@ -144,7 +144,7 @@
 
 ---
 [DhtmlXQ]
-[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-017-二变招<">[/DhtmlXQ_title]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-017-二变着<">[/DhtmlXQ_title]
 [DhtmlXQ_fen]3aR4/4a4/4k4/9/4P4/9/8C/9/2rp1p3/4K4 w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]4099999949999999998699449999999928999930424199999999993858999999[/DhtmlXQ_binit]
 [DhtmlXQ_movelist]4443423240304130433332318636[/DhtmlXQ_movelist]
@@ -343,7 +343,7 @@
 
 ------
 [DhtmlXQ]
-[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-037-三变招<">[/DhtmlXQ_title]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-037-三变着<">[/DhtmlXQ_title]
 [DhtmlXQ_comment0]　　本文介绍20世纪90年代及2000，2001，2002年全国大赛中仙人指路的各种变化，收集了2000多局对局，希望读者能够喜欢。||　　由于时间紧，很多变化未能注明优劣，希读者谅解。||　　作者是弈天东方剑客，15岁，习弈11年，在北京一重点中学念高一，学习刻苦，但仍在百忙中抽出时间做了这个大型文件，并将其打印成一本1600多页的书，有兴趣的可与作者联系。||　　如果你喜欢本文，请告诉你的朋友，如果你不喜欢，请告诉作者，我定会加以改进，让您满意。[/DhtmlXQ_comment0]
 [DhtmlXQ_fen]2ra5/4ak3/C3P2c1/1C4P2/7R1/8r/9/9/3p1p3/4K4 w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]7499999949999999990213426399999920999930514199998572993858999999[/DhtmlXQ_binit]
@@ -354,7 +354,7 @@
 
 ------
 [DhtmlXQ]
-[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-038-二变招<">[/DhtmlXQ_title]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-038-二变着<">[/DhtmlXQ_title]
 [DhtmlXQ_fen]r4k3/C5P2/5a2b/9/p8/CR2R4/9/4K2p1/3r5/2n6 w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]1599999947999999450105619999999900298252509999993899990477999999[/DhtmlXQ_binit]
 [DhtmlXQ_movelist]151000106151505145415150415150510555[/DhtmlXQ_movelist]
@@ -596,7 +596,7 @@
 
 ---
 [DhtmlXQ]
-[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-062-二变招<">[/DhtmlXQ_title]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-062-二变着<">[/DhtmlXQ_title]
 [DhtmlXQ_fen]4k4/3P5/4nr3/5NC1R/9/9/9/9/1rp1p4/3K5 w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]8353999939999999996399319999999952429999409999991899992848999999[/DhtmlXQ_binit]
 [DhtmlXQ_movelist]83804250636050426062425031304041808150718171[/DhtmlXQ_movelist]
@@ -638,7 +638,7 @@
 
 ---
 [DhtmlXQ]
-[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-066-二变招<">[/DhtmlXQ_title]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-066-二变着<">[/DhtmlXQ_title]
 [DhtmlXQ_fen]4k4/3P1P3/3a1an2/n8/9/9/4CN3/9/3pp1p2/5K1p1 w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]9956999959999999994699315199999999629932405299039999993848687999[/DhtmlXQ_binit]
 [DhtmlXQ_movelist]56443241442341322342324151414050414050513141[/DhtmlXQ_movelist]
@@ -713,7 +713,7 @@
 
 ---
 [DhtmlXQ]
-[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-073-三变招<">[/DhtmlXQ_title]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-073-三变着<">[/DhtmlXQ_title]
 [DhtmlXQ_result]*[/DhtmlXQ_result]
 [DhtmlXQ_fen]2bP1k2r/1nn1P4/3cbc3/9/6P1p/7RC/9/4p4/3p1R3/3CK4 w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]7599999949999999588539304164999980112099509942219932528447389999[/DhtmlXQ_binit]
@@ -746,7 +746,7 @@
 
 ---
 [DhtmlXQ]
-[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-076-二变招<">[/DhtmlXQ_title]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-076-二变着<">[/DhtmlXQ_title]
 [DhtmlXQ_fen]4kn3/2nP2CNC/9/9/9/9/9/3p5/4p4/3K5 w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]9971999939999999996181319999999999509999409999219999993748999999[/DhtmlXQ_binit]
 [DhtmlXQ_movelist]61605062314140307150214050624061818061806250[/DhtmlXQ_movelist]
@@ -914,7 +914,7 @@
 
 ---
 [DhtmlXQ]
-[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-090-四变招<">[/DhtmlXQ_title]
+[DhtmlXQ_title]<Title ">JJ象棋-单骑绝尘-090-四变着<">[/DhtmlXQ_title]
 [DhtmlXQ_result]*[/DhtmlXQ_result]
 [DhtmlXQ_fen]r2k4r/3CPP3/b4RRC1/N5n2/9/9/9/9/2p1p4/cpc2K3 w - - 0 1[/DhtmlXQ_fen]
 [DhtmlXQ_binit]5203999959999999623172415199999900630299309999998009292848199999[/DhtmlXQ_binit]
